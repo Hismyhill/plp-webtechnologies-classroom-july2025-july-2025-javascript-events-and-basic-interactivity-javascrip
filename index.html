@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Web Page Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Welcome to Interactive Web Pages!</h1>
+    <button id="toggleModeBtn">Toggle Light/Dark Mode</button>
+    <div id="counterSection">
+      <h2>Counter Game</h2>
+      <button id="counterBtn">Increase Counter</button>
+      <span id="counterValue">0</span>
+    </div>
+    <div id="faqSection">
+      <h2>FAQ</h2>
+      <div class="faq-item">
+        <button class="faq-question">What is JavaScript?</button>
+        <div class="faq-answer">
+          JavaScript is a programming language for the web.
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Why use events?</button>
+        <div class="faq-answer">
+          Events make web pages interactive and dynamic.
+        </div>
+      </div>
+    </div>
+    <form id="signupForm">
+      <h2>Sign Up</h2>
+      <label>Name: <input type="text" id="name" name="name" /></label><br />
+      <label>Email: <input type="email" id="email" name="email" /></label><br />
+      <label
+        >Password:
+        <input type="password" id="password" name="password" /></label
+      ><br />
+      <button type="submit">Submit</button>
+      <div id="formMessages"></div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
